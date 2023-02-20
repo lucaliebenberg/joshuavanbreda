@@ -18,10 +18,10 @@ export default function BaseLayout() {
   }
 
   useEffect(() => {
-    let detectedDarkMode = eval(localStorage.getItem("darkMode"));
+    const detectedDarkMode = localStorage.getItem("darkMode");
 
     if (detectedDarkMode) {
-      setDarkMode(detectedDarkMode);
+      setDarkMode(JSON.parse(detectedDarkMode));
     } else {
       localStorage.setItem("darkMode", "false");
     }
@@ -55,10 +55,7 @@ export default function BaseLayout() {
             py={"1.5rem"}
             sx={{ opacity: 0.7 }}
             width={"100%"}
-          >
-            {/* <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p> */}
-            {/* <p>&copy; 2023</p> */}
-          </Box>
+          ></Box>
         </Grid>
       </Grid>
     </Box>
