@@ -17,6 +17,8 @@ function PortfolioBlock(props) {
         src={image}
         alt={"mockup"}
         style={{ borderRadius: "5rem" }}
+        width="15rem"
+        height="15rem"
       />
       <h1 style={{ fontSize: "2rem", marginTop: "2rem" }}>{title}</h1>
       <Box

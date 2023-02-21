@@ -26,9 +26,9 @@ of what each of the values mean.
  */
 
 export const info = {
-  firstName: "josh",
+  firstName: "joshua",
   lastName: "vanbreda",
-  initials: "jvb", // the example uses first and last, but feel free to use three or more if you like.
+  initials: "JvB", // the example uses first and last, but feel free to use three or more if you like.
   position: "a Game Developer",
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -81,7 +81,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! My name is Josh, a recent BSc Game and Development graduate from Vega School in Cape Town.I’m currently looking for an opportunity in the game development & associated fields. I am friendly and easy to get along with. I consider myself to be a good team player. I enjoy keeping active and meeting new people. In my free-time I play club soccer and attend boxing. I look forward to connecting with like-minded games industry professionals here. Thank you for taking the time to view my profile!",
+  bio: "Hello! My name is Joshua, a recent BSc Game and Development graduate from Vega School in Cape Town.I’m currently looking for an opportunity in the game development & associated fields. I am friendly and easy to get along with. I consider myself to be a good team player. I enjoy keeping active and meeting new people. In my free-time I play club soccer and attend boxing. I look forward to connecting with like-minded games industry professionals here. Thank you for taking the time to view my profile!",
   skills: {
     proficientWith: [
       "c#",
