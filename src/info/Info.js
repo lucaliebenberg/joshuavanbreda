@@ -7,6 +7,9 @@ import PathToMoney from "../img/Path-To-Money.png";
 import PunishEmAll from "../img/Punish-Em-All.png";
 import QualityCheck from "../img/QualityCheck.png";
 import StackyCash from "../img/Stacky-Cash.png";
+import MyRocketsLogo from "../img/MyRocketsLogo.png";
+import myGameLogo from "../img/myGameLogo.png";
+import CityGlide from "../img/CityGlide.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -164,6 +167,25 @@ export const info = {
       live: "https://play.google.com/store/apps/details?id=com.KneeJerk.StackyCash",
       source: "https://github.com/joshuavanbreda/StackyCash",
       image: StackyCash,
+    },
+    {
+      title: "City Glide, CrazyLabs Project",
+      live: "https://github.com/joshuavanbreda/cityglide-game",
+      source: "https://github.com/joshuavanbreda/cityglide-game",
+      image: CityGlide,
+    },
+    {
+      title: "Rocket Explosion's Project",
+      live: "https://github.com/joshuavanbreda/MyRockets",
+      source: "https://github.com/joshuavanbreda/MyRockets",
+      image: MyRocketsLogo,
+    },
+    {
+      title: "BizAR Reality Project",
+      live: "https://github.com/joshuavanbreda/Application-Project-for-BizAR-Reality",
+      source:
+        "https://github.com/joshuavanbreda/Application-Project-for-BizAR-Reality",
+      image: myGameLogo,
     },
   ],
 };
